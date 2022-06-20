@@ -201,3 +201,17 @@ li a:hover {
     color: white;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.author-name {
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+}
+
+.author-name:hover {
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
